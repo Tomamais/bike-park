@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController startLocation]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+            <PersistentString
+               value = "mapView.annotations">
+            </PersistentString>
+            <PersistentString
+               value = "self.mapView.userLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController mapView:viewForAnnotation:]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[appDelegate getMyLocation]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController goToMyLocation]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController backToMyLocation:]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.newLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BikeParkAboutViewController tableView:didSelectRowAtIndexPath:]:BikeParkAboutViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController viewWillAppear:]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPAppDelegate getMyLocation]:BicicletariosSPAppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BicicletariosSPMapViewController reloadKMLFile]:BicicletariosSPMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView">
+            </PersistentString>
+            <PersistentString
+               value = "mapView.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BikeParkMapViewController goToMyLocation]:BikeParkMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController.navigationItem.leftBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

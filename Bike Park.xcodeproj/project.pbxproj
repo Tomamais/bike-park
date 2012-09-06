@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E67FBABA15BC5E4E00EB57D0 /* BikeParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67FBAB915BC5E4E00EB57D0 /* BikeParkDetailViewController.m */; };
+		E685F8F815D8348A00EA87E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E685F8F715D8348A00EA87E3 /* Default.png */; };
+		E685F8FB15D8348E00EA87E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E685F8FA15D8348E00EA87E3 /* Default@2x.png */; };
+		E685F8FD15D8372000EA87E3 /* bikespappicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E685F8FC15D8372000EA87E3 /* bikespappicon.png */; };
+		E685F8FF15D8372400EA87E3 /* bikespappicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E685F8FE15D8372400EA87E3 /* bikespappicon@2x.png */; };
+		E686A20915C5FF79003E321C /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = E686A20815C5FF79003E321C /* settings.plist */; };
+		E68957CF15B259A7000A898B /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E68957CE15B259A7000A898B /* MapPoint.m */; };
+		E68AB73215B656A5003E99A5 /* BikeParkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68AB73115B656A5003E99A5 /* BikeParkListViewController.m */; };
+		E68EB669159AA8930033DA15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68EB668159AA8930033DA15 /* UIKit.framework */; };
+		E68EB66B159AA8930033DA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68EB66A159AA8930033DA15 /* Foundation.framework */; };
+		E68EB66D159AA8930033DA15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68EB66C159AA8930033DA15 /* CoreGraphics.framework */; };
+		E68EB673159AA8930033DA15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E68EB671159AA8930033DA15 /* InfoPlist.strings */; };
+		E68EB675159AA8930033DA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EB674159AA8930033DA15 /* main.m */; };
+		E68EB679159AA8930033DA15 /* BikeParkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EB678159AA8930033DA15 /* BikeParkAppDelegate.m */; };
+		E68EB67F159AA8930033DA15 /* BikeParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EB67E159AA8930033DA15 /* BikeParkMapViewController.m */; };
+		E68EC56915D4ADC0009FD811 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68EC56715D4ADC0009FD811 /* MainStoryboard.storyboard */; };
+		E691A44E15B1230C0030D476 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E691A44615B120110030D476 /* KMLParser.m */; };
+		E693AD7D15A140F800F97732 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AD7C15A140F800F97732 /* CoreLocation.framework */; };
+		E693AD8015A140FF00F97732 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AD7F15A140FF00F97732 /* MapKit.framework */; };
+		E697BE8315EB0170001427EC /* BicicletariosSP.kml in Resources */ = {isa = PBXBuildFile; fileRef = E697BE8215EB0170001427EC /* BicicletariosSP.kml */; };
+		E6A2141015E7F7820095D32C /* BikeParkUpdateKMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2140F15E7F7820095D32C /* BikeParkUpdateKMLViewController.m */; };
+		E6A2141115E7FB1D0095D32C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6A2141315E7FB1D0095D32C /* Localizable.strings */; };
+		E6A2142415E81C8C0095D32C /* BikeParkAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2142315E81C8B0095D32C /* BikeParkAboutViewController.m */; };
+		E6E42D8C15E0222400C51595 /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D8A15E0222400C51595 /* update.png */; };
+		E6E42D8D15E0222400C51595 /* update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D8B15E0222400C51595 /* update@2x.png */; };
+		E6E42D9415E0249800C51595 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9215E0249800C51595 /* map.png */; };
+		E6E42D9515E0249800C51595 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9315E0249800C51595 /* map@2x.png */; };
+		E6E42D9915E025C300C51595 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9715E025C300C51595 /* search.png */; };
+		E6E42D9A15E025C300C51595 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9815E025C300C51595 /* search@2x.png */; };
+		E6E42D9D15E0273700C51595 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9B15E0273700C51595 /* pin.png */; };
+		E6E42D9E15E0273700C51595 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9C15E0273700C51595 /* pin@2x.png */; };
+		E6E42DA515E092CA00C51595 /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42DA415E092CA00C51595 /* bike.png */; };
+		E6E42DA715E092D200C51595 /* bike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42DA615E092D200C51595 /* bike@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E67FBAB815BC5E4E00EB57D0 /* BikeParkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeParkDetailViewController.h; sourceTree = "<group>"; };
+		E67FBAB915BC5E4E00EB57D0 /* BikeParkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeParkDetailViewController.m; sourceTree = "<group>"; };
+		E67FBAC415BE4FC800EB57D0 /* BikeParkUpdateKMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeParkUpdateKMLViewController.h; sourceTree = SOURCE_ROOT; };
+		E685F8F715D8348A00EA87E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E685F8FA15D8348E00EA87E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E685F8FC15D8372000EA87E3 /* bikespappicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bikespappicon.png; sourceTree = "<group>"; };
+		E685F8FE15D8372400EA87E3 /* bikespappicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bikespappicon@2x.png"; sourceTree = "<group>"; };
+		E686A20815C5FF79003E321C /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = settings.plist; path = ../settings.plist; sourceTree = "<group>"; };
+		E68957CD15B259A7000A898B /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapPoint.h; path = BicicletariosSP/MapPoint.h; sourceTree = "<group>"; };
+		E68957CE15B259A7000A898B /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapPoint.m; path = BicicletariosSP/MapPoint.m; sourceTree = "<group>"; };
+		E68AB73015B656A4003E99A5 /* BikeParkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeParkListViewController.h; sourceTree = "<group>"; };
+		E68AB73115B656A5003E99A5 /* BikeParkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeParkListViewController.m; sourceTree = "<group>"; };
+		E68EB664159AA8930033DA15 /* Bike Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EB668159AA8930033DA15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E68EB66A159AA8930033DA15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E68EB66C159AA8930033DA15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E68EB670159AA8930033DA15 /* Bike Park-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bike Park-Info.plist"; sourceTree = "<group>"; };
+		E68EB672159AA8930033DA15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E68EB674159AA8930033DA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E68EB676159AA8930033DA15 /* Bike Park-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bike Park-Prefix.pch"; sourceTree = "<group>"; };
+		E68EB677159AA8930033DA15 /* BikeParkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeParkAppDelegate.h; sourceTree = "<group>"; };
+		E68EB678159AA8930033DA15 /* BikeParkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeParkAppDelegate.m; sourceTree = "<group>"; };
+		E68EB67D159AA8930033DA15 /* BikeParkMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeParkMapViewController.h; sourceTree = "<group>"; };
+		E68EB67E159AA8930033DA15 /* BikeParkMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeParkMapViewController.m; sourceTree = "<group>"; };
+		E68EC56815D4ADC0009FD811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E691A44515B120110030D476 /* KMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KMLParser.h; path = BicicletariosSP/KMLParser.h; sourceTree = "<group>"; };
+		E691A44615B120110030D476 /* KMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KMLParser.m; path = BicicletariosSP/KMLParser.m; sourceTree = "<group>"; };
+		E693AD7C15A140F800F97732 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E693AD7F15A140FF00F97732 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E697BE8215EB0170001427EC /* BicicletariosSP.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BicicletariosSP.kml; sourceTree = "<group>"; };
+		E6A2140F15E7F7820095D32C /* BikeParkUpdateKMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeParkUpdateKMLViewController.m; sourceTree = "<group>"; };
+		E6A2141215E7FB1D0095D32C /* en */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6A2141815E7FCBF0095D32C /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E6A2141915E7FCBF0095D32C /* es */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6A2141A15E7FCBF0095D32C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6A2141B15E7FCC60095D32C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = pt; path = pt.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E6A2141C15E7FCC60095D32C /* pt */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6A2141D15E7FCC60095D32C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6A2142215E81C8B0095D32C /* BikeParkAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeParkAboutViewController.h; sourceTree = "<group>"; };
+		E6A2142315E81C8B0095D32C /* BikeParkAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeParkAboutViewController.m; sourceTree = "<group>"; };
+		E6E42D8A15E0222400C51595 /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		E6E42D8B15E0222400C51595 /* update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update@2x.png"; sourceTree = "<group>"; };
+		E6E42D9215E0249800C51595 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		E6E42D9315E0249800C51595 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		E6E42D9715E025C300C51595 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		E6E42D9815E025C300C51595 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		E6E42D9B15E0273700C51595 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		E6E42D9C15E0273700C51595 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		E6E42DA415E092CA00C51595 /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike.png; sourceTree = "<group>"; };
+		E6E42DA615E092D200C51595 /* bike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E68EB661159AA8930033DA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AD8015A140FF00F97732 /* MapKit.framework in Frameworks */,
+				E693AD7D15A140F800F97732 /* CoreLocation.framework in Frameworks */,
+				E68EB669159AA8930033DA15 /* UIKit.framework in Frameworks */,
+				E68EB66B159AA8930033DA15 /* Foundation.framework in Frameworks */,
+				E68EB66D159AA8930033DA15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E68AB73415B656AD003E99A5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E691A44515B120110030D476 /* KMLParser.h */,
+				E691A44615B120110030D476 /* KMLParser.m */,
+				E68957CD15B259A7000A898B /* MapPoint.h */,
+				E68957CE15B259A7000A898B /* MapPoint.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E68EB659159AA8930033DA15 = {
+			isa = PBXGroup;
+			children = (
+				E68AB73415B656AD003E99A5 /* Map */,
+				E691A44915B120B80030D476 /* Resources */,
+				E691A44815B120AB0030D476 /* Images */,
+				E691A44715B120280030D476 /* Libs */,
+				E68EB66E159AA8930033DA15 /* BikePark */,
+				E68EB667159AA8930033DA15 /* Frameworks */,
+				E68EB665159AA8930033DA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E68EB665159AA8930033DA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68EB664159AA8930033DA15 /* Bike Park.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68EB667159AA8930033DA15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E693AD7F15A140FF00F97732 /* MapKit.framework */,
+				E693AD7C15A140F800F97732 /* CoreLocation.framework */,
+				E68EB668159AA8930033DA15 /* UIKit.framework */,
+				E68EB66A159AA8930033DA15 /* Foundation.framework */,
+				E68EB66C159AA8930033DA15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E68EB66E159AA8930033DA15 /* BikePark */ = {
+			isa = PBXGroup;
+			children = (
+				E68EC56715D4ADC0009FD811 /* MainStoryboard.storyboard */,
+				E68EB677159AA8930033DA15 /* BikeParkAppDelegate.h */,
+				E68EB678159AA8930033DA15 /* BikeParkAppDelegate.m */,
+				E6A2142215E81C8B0095D32C /* BikeParkAboutViewController.h */,
+				E6A2142315E81C8B0095D32C /* BikeParkAboutViewController.m */,
+				E68EB67D159AA8930033DA15 /* BikeParkMapViewController.h */,
+				E68EB67E159AA8930033DA15 /* BikeParkMapViewController.m */,
+				E68AB73015B656A4003E99A5 /* BikeParkListViewController.h */,
+				E68AB73115B656A5003E99A5 /* BikeParkListViewController.m */,
+				E67FBAB815BC5E4E00EB57D0 /* BikeParkDetailViewController.h */,
+				E67FBAB915BC5E4E00EB57D0 /* BikeParkDetailViewController.m */,
+				E67FBAC415BE4FC800EB57D0 /* BikeParkUpdateKMLViewController.h */,
+				E6A2140F15E7F7820095D32C /* BikeParkUpdateKMLViewController.m */,
+				E68EB66F159AA8930033DA15 /* Supporting Files */,
+			);
+			name = BikePark;
+			path = BicicletariosSP;
+			sourceTree = "<group>";
+		};
+		E68EB66F159AA8930033DA15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E686A20815C5FF79003E321C /* settings.plist */,
+				E6A2141315E7FB1D0095D32C /* Localizable.strings */,
+				E68EB670159AA8930033DA15 /* Bike Park-Info.plist */,
+				E68EB671159AA8930033DA15 /* InfoPlist.strings */,
+				E68EB674159AA8930033DA15 /* main.m */,
+				E68EB676159AA8930033DA15 /* Bike Park-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E691A44715B120280030D476 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		E691A44815B120AB0030D476 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6E42DA315E0289000C51595 /* Retina */,
+				E6E42DA415E092CA00C51595 /* bike.png */,
+				E6E42D9B15E0273700C51595 /* pin.png */,
+				E6E42D9715E025C300C51595 /* search.png */,
+				E6E42D9215E0249800C51595 /* map.png */,
+				E685F8FC15D8372000EA87E3 /* bikespappicon.png */,
+				E685F8F715D8348A00EA87E3 /* Default.png */,
+				E6E42D8A15E0222400C51595 /* update.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E691A44915B120B80030D476 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E697BE8215EB0170001427EC /* BicicletariosSP.kml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6E42DA315E0289000C51595 /* Retina */ = {
+			isa = PBXGroup;
+			children = (
+				E6E42DA615E092D200C51595 /* bike@2x.png */,
+				E6E42D9C15E0273700C51595 /* pin@2x.png */,
+				E6E42D9815E025C300C51595 /* search@2x.png */,
+				E6E42D9315E0249800C51595 /* map@2x.png */,
+				E685F8FE15D8372400EA87E3 /* bikespappicon@2x.png */,
+				E685F8FA15D8348E00EA87E3 /* Default@2x.png */,
+				E6E42D8B15E0222400C51595 /* update@2x.png */,
+			);
+			name = Retina;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E68EB663159AA8930033DA15 /* Bike Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EB682159AA8930033DA15 /* Build configuration list for PBXNativeTarget "Bike Park" */;
+			buildPhases = (
+				E68EB660159AA8930033DA15 /* Sources */,
+				E68EB661159AA8930033DA15 /* Frameworks */,
+				E68EB662159AA8930033DA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bike Park";
+			productName = BicicletariosSP;
+			productReference = E68EB664159AA8930033DA15 /* Bike Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E68EB65B159AA8930033DA15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BikePark;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tomás Vásquez Apps";
+			};
+			buildConfigurationList = E68EB65E159AA8930033DA15 /* Build configuration list for PBXProject "Bike Park" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = E68EB659159AA8930033DA15;
+			productRefGroup = E68EB665159AA8930033DA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E68EB663159AA8930033DA15 /* Bike Park */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E68EB662159AA8930033DA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EB673159AA8930033DA15 /* InfoPlist.strings in Resources */,
+				E686A20915C5FF79003E321C /* settings.plist in Resources */,
+				E68EC56915D4ADC0009FD811 /* MainStoryboard.storyboard in Resources */,
+				E685F8F815D8348A00EA87E3 /* Default.png in Resources */,
+				E685F8FB15D8348E00EA87E3 /* Default@2x.png in Resources */,
+				E685F8FD15D8372000EA87E3 /* bikespappicon.png in Resources */,
+				E685F8FF15D8372400EA87E3 /* bikespappicon@2x.png in Resources */,
+				E6E42D8C15E0222400C51595 /* update.png in Resources */,
+				E6E42D8D15E0222400C51595 /* update@2x.png in Resources */,
+				E6E42D9415E0249800C51595 /* map.png in Resources */,
+				E6E42D9515E0249800C51595 /* map@2x.png in Resources */,
+				E6E42D9915E025C300C51595 /* search.png in Resources */,
+				E6E42D9A15E025C300C51595 /* search@2x.png in Resources */,
+				E6E42D9D15E0273700C51595 /* pin.png in Resources */,
+				E6E42D9E15E0273700C51595 /* pin@2x.png in Resources */,
+				E6E42DA515E092CA00C51595 /* bike.png in Resources */,
+				E6E42DA715E092D200C51595 /* bike@2x.png in Resources */,
+				E6A2141115E7FB1D0095D32C /* Localizable.strings in Resources */,
+				E697BE8315EB0170001427EC /* BicicletariosSP.kml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E68EB660159AA8930033DA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E691A44E15B1230C0030D476 /* KMLParser.m in Sources */,
+				E68EB675159AA8930033DA15 /* main.m in Sources */,
+				E68EB679159AA8930033DA15 /* BikeParkAppDelegate.m in Sources */,
+				E68EB67F159AA8930033DA15 /* BikeParkMapViewController.m in Sources */,
+				E68957CF15B259A7000A898B /* MapPoint.m in Sources */,
+				E68AB73215B656A5003E99A5 /* BikeParkListViewController.m in Sources */,
+				E67FBABA15BC5E4E00EB57D0 /* BikeParkDetailViewController.m in Sources */,
+				E6A2141015E7F7820095D32C /* BikeParkUpdateKMLViewController.m in Sources */,
+				E6A2142415E81C8C0095D32C /* BikeParkAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E68EB671159AA8930033DA15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68EB672159AA8930033DA15 /* en */,
+				E6A2141A15E7FCBF0095D32C /* es */,
+				E6A2141D15E7FCC60095D32C /* pt */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E68EC56715D4ADC0009FD811 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68EC56815D4ADC0009FD811 /* en */,
+				E6A2141815E7FCBF0095D32C /* es */,
+				E6A2141B15E7FCC60095D32C /* pt */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E6A2141315E7FB1D0095D32C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A2141215E7FB1D0095D32C /* en */,
+				E6A2141915E7FCBF0095D32C /* es */,
+				E6A2141C15E7FCC60095D32C /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E68EB680159AA8930033DA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E68EB681159AA8930033DA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E68EB683159AA8930033DA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tomás Vásquez (PL2C7694UB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tomás Vásquez (PL2C7694UB)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BicicletariosSP/Bike Park-Prefix.pch";
+				INFOPLIST_FILE = "BicicletariosSP/Bike Park-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "Bike Park";
+				PROVISIONING_PROFILE = "26EA20A6-7712-4491-902F-264CB02CBD34";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26EA20A6-7712-4491-902F-264CB02CBD34";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E68EB684159AA8930033DA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TOMAS ORMENO";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: TOMAS ORMENO";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TOMAS ORMENO";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BicicletariosSP/Bike Park-Prefix.pch";
+				INFOPLIST_FILE = "BicicletariosSP/Bike Park-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "Bike Park";
+				PROVISIONING_PROFILE = "BB0B3101-2A26-4CBE-9C4B-61A91D0629AF";
+				"PROVISIONING_PROFILE[sdk=*]" = "BB0B3101-2A26-4CBE-9C4B-61A91D0629AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB0B3101-2A26-4CBE-9C4B-61A91D0629AF";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E68EB65E159AA8930033DA15 /* Build configuration list for PBXProject "Bike Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EB680159AA8930033DA15 /* Debug */,
+				E68EB681159AA8930033DA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EB682159AA8930033DA15 /* Build configuration list for PBXNativeTarget "Bike Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EB683159AA8930033DA15 /* Debug */,
+				E68EB684159AA8930033DA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E68EB65B159AA8930033DA15 /* Project object */;
+}
