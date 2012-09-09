@@ -26,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
 @property (nonatomic, readwrite) MKMapRect flyTo;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *myBikeButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *viewAllButton;
 
 - (void)updateMapViewLocation:(CLLocationCoordinate2D)zoomLocation;
 - (IBAction)zoomAllPoints:(id)sender;

@@ -36,10 +36,10 @@
 		E6E42D9515E0249800C51595 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9315E0249800C51595 /* map@2x.png */; };
 		E6E42D9915E025C300C51595 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9715E025C300C51595 /* search.png */; };
 		E6E42D9A15E025C300C51595 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9815E025C300C51595 /* search@2x.png */; };
-		E6E42D9D15E0273700C51595 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9B15E0273700C51595 /* pin.png */; };
-		E6E42D9E15E0273700C51595 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42D9C15E0273700C51595 /* pin@2x.png */; };
 		E6E42DA515E092CA00C51595 /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42DA415E092CA00C51595 /* bike.png */; };
 		E6E42DA715E092D200C51595 /* bike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E42DA615E092D200C51595 /* bike@2x.png */; };
+		E6E96A1515FC3FDA00B2ABED /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E96A1415FC3FDA00B2ABED /* pin@2x.png */; };
+		E6E96A1715FC3FE500B2ABED /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E96A1615FC3FE500B2ABED /* pin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,10 +89,10 @@
 		E6E42D9315E0249800C51595 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
 		E6E42D9715E025C300C51595 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		E6E42D9815E025C300C51595 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
-		E6E42D9B15E0273700C51595 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
-		E6E42D9C15E0273700C51595 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
 		E6E42DA415E092CA00C51595 /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike.png; sourceTree = "<group>"; };
 		E6E42DA615E092D200C51595 /* bike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike@2x.png"; sourceTree = "<group>"; };
+		E6E96A1415FC3FDA00B2ABED /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		E6E96A1615FC3FE500B2ABED /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +202,7 @@
 			children = (
 				E6E42DA315E0289000C51595 /* Retina */,
 				E6E42DA415E092CA00C51595 /* bike.png */,
-				E6E42D9B15E0273700C51595 /* pin.png */,
+				E6E96A1615FC3FE500B2ABED /* pin.png */,
 				E6E42D9715E025C300C51595 /* search.png */,
 				E6E42D9215E0249800C51595 /* map.png */,
 				E685F8FC15D8372000EA87E3 /* bikespappicon.png */,
@@ -223,8 +223,8 @@
 		E6E42DA315E0289000C51595 /* Retina */ = {
 			isa = PBXGroup;
 			children = (
+				E6E96A1415FC3FDA00B2ABED /* pin@2x.png */,
 				E6E42DA615E092D200C51595 /* bike@2x.png */,
-				E6E42D9C15E0273700C51595 /* pin@2x.png */,
 				E6E42D9815E025C300C51595 /* search@2x.png */,
 				E6E42D9315E0249800C51595 /* map@2x.png */,
 				E685F8FE15D8372400EA87E3 /* bikespappicon@2x.png */,
@@ -300,12 +300,12 @@
 				E6E42D9515E0249800C51595 /* map@2x.png in Resources */,
 				E6E42D9915E025C300C51595 /* search.png in Resources */,
 				E6E42D9A15E025C300C51595 /* search@2x.png in Resources */,
-				E6E42D9D15E0273700C51595 /* pin.png in Resources */,
-				E6E42D9E15E0273700C51595 /* pin@2x.png in Resources */,
 				E6E42DA515E092CA00C51595 /* bike.png in Resources */,
 				E6E42DA715E092D200C51595 /* bike@2x.png in Resources */,
 				E6A2141115E7FB1D0095D32C /* Localizable.strings in Resources */,
 				E697BE8315EB0170001427EC /* BicicletariosSP.kml in Resources */,
+				E6E96A1515FC3FDA00B2ABED /* pin@2x.png in Resources */,
+				E6E96A1715FC3FE500B2ABED /* pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

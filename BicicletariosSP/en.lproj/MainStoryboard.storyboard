@@ -41,6 +41,7 @@
                         <outlet property="activity" destination="o91-lK-98c" id="lGV-ow-TN2"/>
                         <outlet property="mapView" destination="f24-lS-e8s" id="9dd-qy-L98"/>
                         <outlet property="myBikeButton" destination="a0g-wx-WUE" id="D0S-C0-fxr"/>
+                        <outlet property="viewAllButton" destination="PKX-My-jbu" id="4o0-PR-ajh"/>
                     </connections>
                 </viewController>
             </objects>

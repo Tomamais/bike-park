@@ -22,6 +22,7 @@
 @synthesize newLocation = _newLocation;
 @synthesize flyTo = _flyTo;
 @synthesize myBikeButton;
+@synthesize viewAllButton;
 
 - (void)startLocation
 {
@@ -73,6 +74,7 @@
 {
     [self setActivity:nil];
     [self setMyBikeButton:nil];
+    [self setViewAllButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -117,6 +119,7 @@
     
     // desativa o botão
     myBikeButton.enabled = NO;
+    viewAllButton.enabled = YES;
 }
 
 - (IBAction)backToMyLocation:(id)sender {
@@ -179,6 +182,7 @@
 {
     if (!animated) {
         myBikeButton.enabled = YES;
+        viewAllButton.enabled = YES;
     }
 }
 
@@ -255,5 +259,6 @@
 - (IBAction)zoomAllPoints:(id)sender {
     // Foca o mapa em mostrar todos os points existentes
     mapView.visibleMapRect = self.flyTo;
+    viewAllButton.enabled = NO;
 }
 @end
